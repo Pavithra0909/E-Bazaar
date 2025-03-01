@@ -22,7 +22,7 @@ export default function Error() {
       {/* Error Illustration */}
       <img
         src={ErrorImage}
-        alt="Error"
+        alt="Alt message is changed"
         style={{ maxWidth: "400px", width: "100%", marginBottom: "20px" }}
       />
 
