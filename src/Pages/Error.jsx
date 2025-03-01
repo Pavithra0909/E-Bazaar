@@ -1,7 +1,8 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import ErrorImage from "../Assets/Images/404-Page-Featured-Image.png"; // Ensure you have an error image
+import ErrorImage from "../Assets/Images/404.png";
+
 export default function Error() {
   const navigate = useNavigate();
 
