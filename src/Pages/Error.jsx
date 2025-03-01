@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import ErrorImage from "../Assets/Images/404.png";
+import ErrorImage from "../Assets/Images/404Page.png";
 
 export default function Error() {
   const navigate = useNavigate();
@@ -15,7 +15,7 @@ export default function Error() {
         justifyContent: "center",
         flexDirection: "column",
         textAlign: "center",
-        backgroundColor: "#f5f5f5",
+        backgroundColor: "beige",
         px: 3,
       }}
     >
@@ -23,12 +23,12 @@ export default function Error() {
       <img
         src={ErrorImage}
         alt="Error"
-        style={{ maxWidth: "400px", width: "80%", marginBottom: "20px" }}
+        style={{ maxWidth: "400px", width: "100%", marginBottom: "20px" }}
       />
 
       {/* Error Message */}
-      <Typography variant="h2" sx={{ fontWeight: "bold", color: "#F14C25" }}>
-        Oops! Page Not Found
+      <Typography variant="h4" sx={{ fontWeight: "bold", color: "#F14C25" }}>
+      This Page is Out of Stock – But Our Homepage Isn’t!
       </Typography>
       <Typography
         variant="body1"
